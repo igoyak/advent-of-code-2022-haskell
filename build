@@ -2,9 +2,9 @@
 
 set -euo pipefail
 
-
+clear
 stack build
 echo
 echo "=============="
 echo
-cat input/in1 | stack exec advent-exe
+cat input/in2 | stack exec advent-exe
