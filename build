@@ -7,4 +7,4 @@ stack build
 echo
 echo "=============="
 echo
-cat input/in2 | stack exec advent-exe
+cat input/in3 | stack exec advent-exe
