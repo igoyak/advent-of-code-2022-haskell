@@ -1,6 +1,6 @@
 module Main (main) where
 
-import Advent3
+import Advent4
 
 main :: IO ()
 --main = solve1

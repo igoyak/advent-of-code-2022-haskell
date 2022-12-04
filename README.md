@@ -39,6 +39,14 @@ I'm seeing ways to refactor and improve the solution, but resisting the temptati
 
 Found the `foldr1` function, which seems to simplify folds significantly, will try in the future. 
 
+## Day 4
+
+I used `fromEnum` to convert booleans into ints (for counting truthy elements in a list). 
+I wonder if there's a ready-made funciton for this, like the C# LINQ `myList.Count(e => e > 7)`.
+
+Also playing with the dollar sign `$`, but didn't end up using it.
+Some reading to do: <https://typeclasses.com/featured/dollar>
+
 
 ---
 

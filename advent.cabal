@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 81f0704e342b20b5588a8f8d99bf9f7c91037df4d659689d44ee7671882396f4
+-- hash: 4f7f8a9cef54ce8819d586acead21b34cd874948546e31126b84df7aab3c57f2
 
 name:           advent
 version:        0.1.0.0
@@ -30,6 +30,7 @@ library
       Advent1
       Advent2
       Advent3
+      Advent4
   other-modules:
       Paths_advent
   hs-source-dirs:
@@ -38,6 +39,7 @@ library
   build-depends:
       base >=4.7 && <5
     , containers >0.6
+    , split >0.2
   default-language: Haskell2010
 
 executable advent-exe
